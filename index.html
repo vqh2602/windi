@@ -19,14 +19,14 @@
 const options = {
     key: 'gt9wIWaMDlghTfVzo9tBzGYHo2zSnrOC', 
     verbose: true,
-    lat: 21.031,
-    lon: 105.852,
-    zoom: 5,
+    lat: 16.820,
+    lon: 108.163,
+    zoom: 6,
 };
 windyInit(options, windyAPI => {
     const { map } = windyAPI;
     L.popup()
-        .setLatLng([21.031, 105.852])
+        .setLatLng([21.018, 105.798])
         .setContent('Hello World')
         .openOn(map);
 });
